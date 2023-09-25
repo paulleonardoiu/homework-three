@@ -1,0 +1,31 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    height: 92px;
+    margin: 0 auto;
+    font-family: 'proxima-nova';
+    color: #79ADDC;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    border-bottom: 1px solid white;
+
+    .logo{
+        color: white;
+        font-size: 20px;
+    }
+    a{
+        color: white;
+        font-size: 15px;
+        text-decoration: none;
+        padding: 0 10px;
+    }
+    .border{
+        border-right: 1px solid #79ADDC;
+    }
+}
